@@ -1,0 +1,22 @@
+{
+  "name": "synctalk-server",
+  "version": "1.0.0",
+  "description": "Realtime chat application using Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Roshan Kodi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mongoose": "^9.6.2",
+    "multer": "^2.1.1",
+    "socket.io": "^4.7.2",
+    "uuid": "^14.0.0"
+  }
+}
